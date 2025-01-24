@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roshan Portfolio</title>
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style2.css">
+    <!-- Fonts -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+    <style>
+        /* Include your updated CSS here */
+    </style>
+</head>
+<body>
+    <!-- Header Start -->
+    <header>
+        <a href="#" class="logo"><span class="R">R</span>oshan</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav>
+            <a href="#" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#portpolio">Portpolio</a>
+            <a href="#work">Work</a>
+            <a href="#contacts">Contact</a>
+        </nav>
+    </header>
+    <!-- Header End -->
+
+    <!-- Home Section Start -->
+    <section class="home active">
+        <div class="home-detail">
+            <h1>Hello ,</h1>
+            <h2>I'm a   
+                <span style="--i:3" data-text="Web Developer">Web Developer</span>
+                <span style="--i:2" data-text="UI/UX Designer">UI/UX Designer</span>
+                <span style="--i:1" data-text="Roshan Dandge">Roshan Dandge</span>
+            </h2>
+            <p><b><i>Ahitects of the digital realm , transforming ides into reality through Code and innovation ,</b></i><br>I am a Developer with extensive knowledge and expertise in web technologies and UI/UX Design, delivering high-quality work.</p>
+          
+            <div class="btn-sci">
+                <a href="/Roshan SE CV.pdf" class="btn">Download CV</a>
+                <!-- <img src="c:\Users\rosha\OneDrive\Documents\Desktop\Roshan_Dandge CV.pdf" alt="CV"> -->
+                <div class="sci">
+                    <a href="https://github.com/RoshanDandge25" target="_blank"><i class='bx bxl-github'></i></a> 
+                    <a href="https://www.linkedin.com/in/roshan-dandge-292805215" target="_blank"><i class='bx bxl-linkedin'></i></a> 
+                    <a href="mailto:roshandandge25@gmail.com?subject=Hello%20Roshan&body=I%20would%20like%20to%20connect%20with%20you." target="_blank">
+                        <i class='bx bxl-gmail'></i>
+                    </a>
+                </div>
+            </div>
+            
+            
+        </div>
+        <div class="home-img">
+            <div class="img-box">
+                <div class="img-item">
+                    <img src="/images/RD.jpg" alt="Roshan Picture">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Home Section End -->
+
+    <!-- -----------------About Start------------- -->
+
+    <section class="about section" id="about">
+        <h2 data-heading="My Intro" class="section_title">About <span>Me</span></h2>
+        <p class="subtitlequali">My Intro</p>
+    
+        <div class="about_container1 container grid">
+            <img src="/images/RD.jpg" alt="Photo of Roshan Dandge" class="about-img">
+            
+            <div class="about-data">
+                <h3 class="about-heading">Hi, I'm Computer Engineer</h3>
+                <p class="about-description">
+                   Highly motivited and skilled computer engineering graducate with a strong academic background and a passion for coding completed revelant coursework in Software Development with hands on experience in various languages.
+                </p>
+                
+                <div class="about-info ">
+                    <div class="about-box">
+                        <i class='bx bx-award about-icon'></i>
+                        <h3 class="about-title">Experience</h3>
+                        <span class="about-subtitle">3 Months</span>
+                    </div>
+    
+                    <div class="about-box">
+                        <i class='bx bx-briefcase alt about-icon'></i>
+                        <h3 class="about-title">Completed</h3>
+                        <span class="about-subtitle">4+ Projects</span>
+                    </div>
+    
+                    <div class="about-box">
+                        <i class='bx bx-headphone alt about-icon'></i>
+                        <h3 class="about-title">Support</h3>
+                        <span class="about-subtitle">Available 24/7</span>
+                    </div>
+                </div>
+                
+                <a href="/Roshan SE CV.pdf" target="_blank" class="btn">
+                    <i class='bx bx-file button-icon'></i> View Resume
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------About Section End ---------------------- -->
+
+
+     <!-- ------------Qualification-------------------------- -->
+
+
+   <!-- Qualification Section -->
+
+   <section class="qualification-section" id="portpolio">
+    <h2 class="quali-title">Portpolio</h2>
+    <p class="subtitlequali">My journey</p><br>
+
+    <!-- Tabs -->
+    <div class="qualification-tabs">
+        <button class="qualification-button qualification__active" onclick="showSection('education')">Education</button>
+        <button class="qualification-button" onclick="showSection('experience')">Experience</button>
+        <button class="qualification-button" onclick="showSection('services')">Services</button>
+    </div>
+
+    <!-- Qualification Content  div-->
+    <div id="education" class="qualification-container">
+        <div class="qualification-box">
+            <h3 class="qualification-title">Bachelor's in Computer Engineering</h3>
+            <p class="qualification-subtitle">Savitribai Phule Pune University</p>
+            <p class="qualification-subtitle">CGPA : 7.45</p>
+            <span class="qualification-calendar">2021 - 2024</span>
+        </div>
+
+        <div class="qualification-box">
+            <h3 class="qualification-title">Diploma</h3>
+            <p class="qualification-subtitle">Maharashtra State Board Of Technical Education</p>
+            <p class="qualification-subtitle">Percentages : 78.60</p>
+            <span class="qualification-calendar">2018 - 2021</span>
+        </div>
+
+        <div class="qualification-box">
+            <h3 class="qualification-title">SSC</h3>
+            <p class="qualification-subtitle">Navajeevan Vidhyalaya Rohinkhed</p>
+            <p class="qualification-subtitle">Percentages : 78.60</p>
+            <span class="qualification-calendar">2017 - 2018</span>
+        </div>
+    </div>
+
+    <!-- Experience Content  div-->
+    <div id="experience" class="qualification-container" style="display: none;">
+        <div class="qualification-box">
+            <i class='bx bx-code alt logo'></i>
+            <h3 class="qualification-title">UI Developer Intern</h3>
+            <p class="qualification-subtitle">Nadsoft It Solution</p>
+            <span class="qualification-calendar">2022 - 2023</span>
+        </div>
+        <div class="qualification-box">
+            <i class='bx bx-code-block alt logo' ></i>
+            <h3 class="qualification-title">Web Development & Design</h3>
+            <p class="qualification-subtitle">Libity Infotech Private Limited ,Jalgaon
+            </p>
+            <span class="qualification-calendar">Sep 2021- Oct 2021
+            </span>
+        </div>
+        <div class="qualification-box">
+            <i class='bx bx-code alt logo' ></i>
+            <h3 class="qualification-title">Web Development & Design</h3>
+            <p class="qualification-subtitle">Oasis infobyte</p>
+            <span class="qualification-calendar">Sep 2023- Oct 2023
+            </span>
+        </div>
+    </div>
+
+
+    <!-- Services div Start -->
+    
+
+    <div class="services" id="services" style="display: none;">
+       
+        <div class="service-box" id="services" >
+            <!-- Service 1 -->
+            <div class="service-item">
+                <i class='bx bx-laptop' ></i>
+              
+                <h3 class="head">Web Development</h3>
+                <p class="paragraph">Creating responsive and modern websites using cutting-edge technologies.</p>
+                <i class='bx bxl-html5'></i>
+                <i class='bx bxl-css3' ></i>
+                <i class='bx bxl-javascript' ></i>
+                <i class='bx bxl-react' ></i>
+              
+            </div>
+            
+            <!-- Service 2 -->
+            <div class="service-item">
+                <i class='bx bxl-figma' ></i>
+           
+                <h3 class="head">UI/UX Design</h3>
+                <p class="paragraph">Designing seamless and visually appealing user experiences and interfaces.</p>
+                <i class='bx bxl-figma' ></i>
+                <i class='bx bxl-adobe' ></i>
+                <i class='bx bxl-sketch' ></i>
+                
+            </div>
+            
+            <!-- Service 3 -->
+            <div class="service-item">
+                <i class='bx bx-code-curly' ></i>
+                
+                <h3 class="head">Backend</h3>
+                <p class="paragraph">Building high-performance interactive frontend applications.</p>
+                <i class='bx bxl-java'></i>
+                <i class="fi fi-ts-sql-server"></i>
+                
+            </div>
+        </div>
+    </div>
+    
+</section>
+
+    <!-- Qualification end -------------------- -->
+
+    <!-- ------------------ my work start  ------------->
+
+
+    
+
+
+
+
+
+  <!-- Work Section -->
+  <section class="work-container" id="work">
+    <h2 data-heading="My Intro" class="section_title">My <span>Work</span></h2>
+    <p class="subtitlequali">Projects</p>
+    <div class="main-work">
+        <!-- Portfolio Card -->
+        <div class="cards">
+            <div class="imgs-card1">
+                <img src="/images/portpolio.png" alt="Portfolio Project">
+            </div>
+            <div class="sub-box">
+                <h2>Portfolio</h2>
+                <a href="#" onclick="openModal('portfolioModal')" aria-label="Read more about Portfolio project"><i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+        </div>
+
+        <!-- Weather App Card -->
+        <div class="cards">
+            <div class="imgs-card3">
+                <img src="/images/Whether.png" alt="Weather App">
+            </div>
+            <div class="sub-box">
+                <h2>Weather App</h2>
+                <a href="#" onclick="openModal('weatherModal')" aria-label="Read more about Weather App project"><i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+        </div>
+
+        <!-- Calculator App Card -->
+        <div class="cards">
+            <div class="imgs-card3">
+                <img src="/images/calculator.png" alt="Calculator App">
+            </div>
+            <div class="sub-box">
+                <h2>Calculator App</h2>
+                <a href="#" onclick="openModal('calculatorModal')" aria-label="Read more about Calculator App project"><i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+        </div>
+
+        <!-- Campus Placement App Card -->
+        <div class="cards">
+            <div class="imgs-card3">
+                <img src="/images/Admin Module.png" alt="Campus Placement App">
+            </div>
+            <div class="sub-box">
+                <h2>Campus Placement App</h2>
+                <a href="#" onclick="openModal('campusModal')" aria-label="Read more about Campus Placement App project"><i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+        </div>
+
+        <!-- Messenger UI App Card -->
+        <div class="cards">
+            <div class="imgs-card3">
+                <img src="/images/messanger.jpeg" alt="Messenger UI App" width="100px">
+            </div>
+            <div class="sub-box">
+                <h2>Messenger UI Kit</h2>
+                <a href="#" onclick="openModal('messengerModal')" aria-label="Read more about Messenger UI App project"><i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+        </div>
+
+        <!-- Grocery Store Card -->
+        <div class="cards">
+            <div class="imgs-card2">
+                <img src="/images/vegmart.png" alt="Grocery Store Project">
+            </div>
+            <div class="sub-box">
+                <h2>Grocery Store</h2>
+                <a href="#" onclick="openModal('groceryModal')" aria-label="Read more about Grocery Store project"><i class='bx bx-right-arrow-alt'></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Modals -->
+<div id="portfolioModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('portfolioModal')">&times;</span>
+        <div class="project-img">
+         <img src="/images/portpolio.png" alt="portpolio-img" height="320PX" >
+        </div>
+        <div>
+        <h1> PORTPOLIO</h1>
+        <p>Welcome to my professional portpolio website , where i showcased my Skill , mastery of languages , highlight my education achivement and present captivating array of projects  This project showcases my portfolio and  skills.</p><br>
+        <p><span>Technology used : </span> HTML , CSS , BOOTSTRAP , JAVASCRIPT , JQWERY</p>
+    </div>
+       
+        <a href="https://github.com/RoshanDandge25" target="_blank"> <button class="buton">view code </button><i class='bx bxl-github'></i></a>
+    </div>
+</div>
+
+<div id="weatherModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('weatherModal')">&times;</span>
+        <div class="project-img">
+            <img src="/images/Whether.png" alt="wether-img" height="320PX" >
+           </div>
+           <div>
+           <h1>Wether App </h1>
+           <p>The Weather App is a user-friendly web application that provides real-time weather updates for any city around the globe. Built using HTML, CSS, and JavaScript, the app fetches live data from weather APIs to display current temperature, conditions, humidity, and wind speed. It features a clean, responsive design, ensuring seamless usability across devices. This project demonstrates skills in API integration, dynamic content rendering, and responsive web development while offering a practical tool for everyday use.</p><BR>
+            <p><span>Technology used : </span> HTML , CSS , BOOTSTRAP ,  JAVASCRIPT, API</p>
+       </div>
+          
+       <a href="https://github.com/RoshanDandge25" target="_blank"> <button class="buton">view code </button><i class='bx bxl-github'></i></a>
+    </div>
+</div>
+
+<div id="calculatorModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('calculatorModal')">&times;</span>
+        <div class="project-img">
+            <img src="/images/calculator.png" alt="Calculator-img" height="320PX" >
+           </div>
+           <div>
+           <h1>Calculator </h1>
+         
+
+           <p>A simple yet functional calculator application designed to perform basic arithmetic operations such as addition, subtraction, multiplication, and division. <br>
+
+            User-friendly interface for seamless interaction. <br>
+            Supports real-time calculations and instant results. <br>
+            Responsive design compatible with all screen sizes. <br>
+
+            
+            Enhance coding skills in JavaScript and DOM manipulation.
+            Showcase a practical example of interactive web development</p><br>
+           <p><span>Technology used : </span> HTML , CSS , BOOTSTRAP , JAVASCRIPT , JQWERY , REACT</p>
+       </div>
+          
+       <a href="https://github.com/RoshanDandge25" target="_blank"> <button class="buton">view code </button><i class='bx bxl-github'></i></a>
+    </div>
+</div>
+
+<div id="campusModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('campusModal')">&times;</span>
+        <div class="project-img">
+            <img src="/images/Admin Module.png" alt="Campus-Placement-img" height="320PX" >
+           </div>
+           <div>
+           <h1>Campus Placement </h1>
+           <p>The Campus Placement App is a real-time web application designed specifically to streamline the placement process for our college. It enables students to register, upload resumes, and view or apply for job opportunities posted by recruiters. Simultaneously, it allows recruiters to post job openings, shortlist candidates, and track placement activities, making the process efficient and transparent.</p><br>
+           <p>
+            Real-time student registration and profile updates. <br>
+           Centralized job posting and application system. <br>
+           Notifications for job updates, interview schedules, and results. <br>
+           Admin dashboard for managing placement statistics and records. <br>
+           Responsive design for easy access on any device. <br>
+           </p>
+           <p><span>Technology used :  figma(design) , java , XML ,  firebase</p>
+       </div>
+          
+       <a href="https://github.com/RoshanDandge25" target="_blank"> <button class="buton">view Design </button><i class='bx bxl-github'></i></a>
+    </div>
+</div>
+
+<div id="messengerModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('messengerModal')">&times;</span>
+        <div class="project-img">
+            <img src="/images/messanger.jpeg" alt="messanger-img" height="320PX" >
+           </div>
+           <div>
+           <h1>Messanger UI Kit </h1>
+           <p>This project is a modern and intuitive UI design for a Messenger App, created using Figma. The design focuses on simplicity, functionality, and user engagement, offering a visually appealing and seamless communication experience. The interface incorporates essential features while maintaining a clean and minimalist aesthetic.</p><br>
+           <p><span>Technology used : </span>Figma: For wireframing, prototyping, and creating interactive design components.</p>
+       </div>
+       <a href="https://www.figma.com/design/pUMj3dz3mjJiHT3mXa4MCw/Roshan-Practice-set?node-id=473-476&t=KGCdK2ojEQUuYaZo-1" target="_blank"> <button class="buton">view code </button><i class='bx bxl-github'></i></a>
+    </div>
+</div>
+
+<div id="groceryModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="closeModal('groceryModal')">&times;</span>
+        <div class="project-img">
+            <img src="/images/vegmart.png" alt="vegmart-img" height="320PX" >
+           </div>
+           <div>
+           <h1>Grocery Store</h1>
+           <p>The Grocery Store Web Application is a responsive and interactive platform developed using HTML, CSS, and JavaScript. It provides a seamless online shopping experience for groceries, including vegetables, meat, dairy, and other essentials. The app features a well-organized homepage with product categories, a searchable and filterable product catalog, and a dynamic shopping cart that updates in real time. A user-friendly checkout page ensures a smooth purchasing process, with form validation for secure input. Designed to be fully responsive, the application works seamlessly across devices, offering an accessible and visually appealing interface for users.</p><br>
+           <p><span>Technology used : </span> HTML , CSS , BOOTSTRAP ,JAVASCRIPT , JQWERY , REACT</p>
+        
+       </div>
+          
+       <a href="https://github.com/RoshanDandge25" target="_blank"> <button class="buton">view code </button><i class='bx bxl-github'></i></a>
+    </div>
+</div>
+
+
+
+    <!-- ----------------------work end -->
+
+    <!-- ----contact start ---- -->
+
+
+    <section class="contactme" id="contacts">
+        <h2 data-heading="My Intro" class="section_title">Contact <span>Us</span></h2>
+        <!-- <p class="subtitlequali">contact</p> -->
+        
+        <div class="formcontainer">
+        
+            <form id="contact-form" action="https://formspree.io/f/mzzbldyo" method="post">
+                <h2>Get In Touch</h2>
+                <div class="input-group">
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" required>
+                    <input type="text" id="lastname" name="lastname" placeholder="Last Name" required>
+                </div>
+                <div class="input-group">
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                    <input type="tel" id="mobile" name="mobile" placeholder="Mobile Number" pattern="[0-9]{10}" required>
+                </div>
+                <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+                <input type="submit" value="Send" id="buton">
+            </form>
+        </div>
+      
+    </section>
+    
+    
+    <!-- -------------contact end---------- -->
+
+
+<script src="script.js"></script>
+</body>
+</html>
