@@ -996,3 +996,71 @@ form #buton:hover {
 }
 
 /* ----------contact us----end------- */
+
+
+/* --footor start---- */
+.footer {
+    background: #111;
+  
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .footer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  .footer p {
+    font-size: 14px;
+    color: #ccc;
+  }
+  
+  .footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0;
+  }
+  
+  .footer-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .footer-links li a:hover {
+    color: #7cf03d;
+  }
+  
+  .social-icons {
+    margin: 15px 0;
+  }
+  
+  .social-icons a {
+    color: #fff;
+    font-size: 25px;
+    margin: 0 10px;
+    transition: 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #7cf03d;
+  }
+  
+  .copyright {
+    font-size: 12px;
+    color: #888;
+    margin-top: 10px;
+  }
+  /*---footor end---------  */
