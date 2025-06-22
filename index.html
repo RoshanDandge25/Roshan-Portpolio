@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="style2.css">
     <!-- Fonts -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
 
     <style>
@@ -23,13 +24,14 @@
         <nav>
             <a href="#" class="active">Home</a>
             <a href="#about">About</a>
-            <a href="#portpolio">Portpolio</a>
+            <a href="#portfolio">Portpolio</a>
             <a href="#work">Work</a>
             <a href="#contacts">Contact</a>
         </nav>
     </header>
     <!-- Header End -->
 
+<<<<<<< HEAD
     <!-- Home Section Start -->
     <section class="home active">
         <div class="home-detail">
@@ -64,6 +66,56 @@
         </div>
     </section>
     <!-- Home Section End -->
+=======
+   <!-- Home Section Start -->
+<section class="home active">
+  <div class="home-detail">
+    <h1>Hello,</h1>
+    
+
+<h2>  I'm a 
+  <span style="--i:0" data-text="Cybersecurity Enthusiast">Cybersecurity Enthusiast</span>
+  <span style="--i:1" data-text="Web Developer">Web Developer</span>
+  <span style="--i:2" data-text="Roshan Dandge">Roshan Dandge</span>
+</h2>
+    
+    
+    <p><i><b>Crafting the digital future—where creativity meets code and security.</b></i></p>
+    
+   <p>
+  I’m a passionate <b>Developer</b> with a strong command of <b>web technologies</b>, 
+  <b>Linux and Windows administration</b>, and <b>Cybersecurity</b>, transforming ideas into 
+  intuitive, secure, and high-performing digital experiences.
+</p>
+
+ 
+    <div class="btn-sci">
+      <a href="./Roshan CV.pdf" class="btn" aria-label="Download Roshan's CV">Download CV</a>
+      
+      <div class="sci">
+        <a href="https://github.com/RoshanDandge25" target="_blank" aria-label="Roshan's GitHub Profile">
+          <i class='bx bxl-github'></i>
+        </a> 
+        <a href="https://www.linkedin.com/in/roshan-dandge-292805215" target="_blank" aria-label="Roshan's LinkedIn Profile">
+          <i class='bx bxl-linkedin'></i>
+        </a> 
+        <a href="mailto:roshandandge25@gmail.com?subject=Hello%20Roshan&body=I%20would%20like%20to%20connect%20with%20you." target="_blank" aria-label="Send Email to Roshan">
+          <i class='bx bxl-gmail'></i>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="home-img">
+    <div class="img-box">
+      <div class="img-item">
+        <img src="./images/RD.jpg" alt="Roshan Dandge's Profile Picture">
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Home Section End -->
+
 
     <!-- -----------------About Start------------- -->
 
@@ -77,14 +129,14 @@
             <div class="about-data">
                 <h3 class="about-heading">Hi, I'm Computer Engineer</h3>
                 <p class="about-description">
-                   Highly motivited and skilled computer engineering graducate with a strong academic background and a passion for coding completed revelant coursework in Software Development with hands on experience in various languages.
+                   I am a recent Computer Engineering graduate with a strong foundation in computer science, currently pursuing a Post Graduate Diploma in IT Infrastructure, Systems, and Security (DITISS) from CDAC (Sunbeam), Pune. My passion for cybersecurity drives me to explore real-world challenges and apply my growing expertise in ethical hacking, network security, and DevSecOps. With a solid academic background and hands-on training, I am eager to begin my professional journey and contribute to building robust and innovative security solutions.
                 </p>
                 
                 <div class="about-info ">
                     <div class="about-box">
                         <i class='bx bx-award about-icon'></i>
                         <h3 class="about-title">Experience</h3>
-                        <span class="about-subtitle">3 Months</span>
+                        <span class="about-subtitle">4+ Months</span>
                     </div>
     
                     <div class="about-box">
@@ -109,72 +161,74 @@
 
     <!-- ----------------About Section End ---------------------- -->
 
-
-     <!-- ------------Qualification-------------------------- -->
-
-
-   <!-- Qualification Section -->
-
-   <section class="qualification-section" id="portpolio">
-    <h2 class="quali-title">Portpolio</h2>
-    <p class="subtitlequali">My journey</p><br>
+ <!-- Qualification Section -->
+  <section class="qualification-section" id="portfolio">
+    <h2 class="quali-title">Portfolio</h2>
+    <p class="subtitlequali">My journey</p>
 
     <!-- Tabs -->
-    <div class="qualification-tabs">
-        <button class="qualification-button qualification__active" onclick="showSection('education')">Education</button>
-        <button class="qualification-button" onclick="showSection('experience')">Experience</button>
-        <button class="qualification-button" onclick="showSection('services')">Services</button>
+    <div class="qualification-tabs" id="tab-container">
+      <button class="qualification-button qualification__active" data-section="education">Education</button>
+      <button class="qualification-button" data-section="experience">Experience</button>
+      <button class="qualification-button" data-section="services">Services</button>
     </div>
 
-    <!-- Qualification Content  div-->
+    <!-- Education -->
     <div id="education" class="qualification-container">
-        <div class="qualification-box">
-            <h3 class="qualification-title">Bachelor's in Computer Engineering</h3>
-            <p class="qualification-subtitle">Savitribai Phule Pune University</p>
-            <p class="qualification-subtitle">CGPA : 7.45</p>
-            <span class="qualification-calendar">2021 - 2024</span>
-        </div>
+      <div class="qualification-box">
+        <h3 class="qualification-title">PG-Diploma (DITISS)</h3>
+        <p class="qualification-subtitle">CDAC Sunbeam Pune</p>
+        <p class="qualification-subtitle">Status: Pursuing</p>
+        <span class="qualification-calendar">Feb 2025 – Present</span>
+      </div>
 
-        <div class="qualification-box">
-            <h3 class="qualification-title">Diploma</h3>
-            <p class="qualification-subtitle">Maharashtra State Board Of Technical Education</p>
-            <p class="qualification-subtitle">Percentages : 78.60</p>
-            <span class="qualification-calendar">2018 - 2021</span>
-        </div>
+      <div class="qualification-box">
+        <h3 class="qualification-title">Bachelor's in Computer Engineering</h3>
+        <p class="qualification-subtitle">SPPU</p>
+        <p class="qualification-subtitle">CGPA: 7.45</p>
+        <span class="qualification-calendar">2021 - 2024</span>
+      </div>
 
-        <div class="qualification-box">
-            <h3 class="qualification-title">SSC</h3>
-            <p class="qualification-subtitle">Navajeevan Vidhyalaya Rohinkhed</p>
-            <p class="qualification-subtitle">Percentages : 78.60</p>
-            <span class="qualification-calendar">2017 - 2018</span>
-        </div>
+      <div class="qualification-box">
+        <h3 class="qualification-title">Diploma</h3>
+        <p class="qualification-subtitle">MSBTE</p>
+        <p class="qualification-subtitle">Percentage: 78.60%</p>
+        <span class="qualification-calendar">2018 - 2021</span>
+      </div>
+
+      <div class="qualification-box">
+        <h3 class="qualification-title">SSC</h3>
+        <p class="qualification-subtitle">Navajeevan Vidhyalaya Rohinkhed</p>
+        <p class="qualification-subtitle">Percentage: 78.60%</p>
+        <span class="qualification-calendar">2017 - 2018</span>
+      </div>
     </div>
 
-    <!-- Experience Content  div-->
+    <!-- Experience -->
     <div id="experience" class="qualification-container" style="display: none;">
-        <div class="qualification-box">
-            <i class='bx bx-code alt logo'></i>
-            <h3 class="qualification-title">UI Developer Intern</h3>
-            <p class="qualification-subtitle">Nadsoft It Solution</p>
-            <span class="qualification-calendar">2022 - 2023</span>
-        </div>
-        <div class="qualification-box">
-            <i class='bx bx-code-block alt logo' ></i>
-            <h3 class="qualification-title">Web Development & Design</h3>
-            <p class="qualification-subtitle">Libity Infotech Private Limited ,Jalgaon
-            </p>
-            <span class="qualification-calendar">Sep 2021- Oct 2021
-            </span>
-        </div>
-        <div class="qualification-box">
-            <i class='bx bx-code alt logo' ></i>
-            <h3 class="qualification-title">Web Development & Design</h3>
-            <p class="qualification-subtitle">Oasis infobyte</p>
-            <span class="qualification-calendar">Sep 2023- Oct 2023
-            </span>
-        </div>
+      <div class="qualification-box">
+        <i class='bx bx-code'></i>
+        <h3 class="qualification-title">UI Developer Intern</h3>
+        <p class="qualification-subtitle">Nadsoft IT Solution</p>
+        <span class="qualification-calendar">2022 - 2023</span>
+      </div>
+
+      <div class="qualification-box">
+        <i class='bx bx-code-block'></i>
+        <h3 class="qualification-title">Web Dev & Design</h3>
+        <p class="qualification-subtitle">Libity Infotech, Jalgaon</p>
+        <span class="qualification-calendar">Sep 2021 - Oct 2021</span>
+      </div>
+
+      <div class="qualification-box">
+        <i class='bx bx-code'></i>
+        <h3 class="qualification-title">Web Dev & Design</h3>
+        <p class="qualification-subtitle">Oasis Infobyte</p>
+        <span class="qualification-calendar">Sep 2023 - Oct 2023</span>
+      </div>
     </div>
 
+<<<<<<< HEAD
 
     <!-- Services div Start -->
     
@@ -217,18 +271,51 @@
                 <i class="fi fi-ts-sql-server"></i>
                 
             </div>
-        </div>
-    </div>
-    
-</section>
 
-    <!-- Qualification end -------------------- -->
+    <!-- Services -->
+    <div id="services" class="services" style="display: none;">
+      <div class="service-box-container">
+        <div class="service-item">
+          <i class='bx bx-laptop'></i>
+          <h3 class="head">Web Development</h3>
+          <p class="paragraph">Responsive, modern websites using cutting-edge tech.</p>
+          <div class="tech-icons">
+            <i class='bx bxl-html5'></i>
+            <i class='bx bxl-css3'></i>
+            <i class='bx bxl-javascript'></i>
+            <i class='bx bxl-react'></i>
+          </div>
+
+        </div>
+
+        <div class="service-item">
+          <i class='bx bx-shield-quarter'></i>
+          <h3 class="head">Cybersecurity</h3>
+          <p class="paragraph">Ethical hacking & DevSecOps to secure systems.</p>
+          <div class="tech-icons">
+            <i class='bx bx-lock'></i>
+            <i class='bx bx-shield'></i>
+            <i class='bx bx-network-chart'></i>
+            <i class='bx bx-analyse'></i>
+          </div>
+        </div>
+
+        <div class="service-item">
+          <i class='bx bx-terminal'></i>
+          <h3 class="head">Linux & Windows Admin</h3>
+          <p class="paragraph">Manage systems, networks & services efficiently.</p>
+          <div class="tech-icons">
+            <i class='bx bx-server'></i>
+            <i class='bx bx-cog'></i>
+            <i class='bx bxs-data'></i>
+            <i class='bx bx-lock-alt'></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
     <!-- ------------------ my work start  ------------->
-
-
-    
-
 
 
 
@@ -238,6 +325,17 @@
     <h2 data-heading="My Intro" class="section_title">My <span>Work</span></h2>
     <p class="subtitlequali">Projects</p>
     <div class="main-work">
+               <!-- Linux Log Monitor with Email Alerts Card -->
+<div class="cards">
+    <div class="imgs-card3">
+        <img src="./images/linux.jpg" alt="Linux Log Monitor" width="100px">
+    </div>
+    <div class="sub-box">
+        <h2>Linux Log Monitor</h2>
+        <a href="#" onclick="openModal('linuxMonitorModal')" aria-label="Read more about Linux Log Monitor project"><i class='bx bx-right-arrow-alt'></i></a>
+    </div>
+</div>
+
         <!-- Portfolio Card -->
         <div class="cards">
             <div class="imgs-card1">
@@ -282,6 +380,7 @@
             </div>
         </div>
 
+
         <!-- Messenger UI App Card -->
         <div class="cards">
             <div class="imgs-card3">
@@ -292,6 +391,7 @@
                 <a href="#" onclick="openModal('messengerModal')" aria-label="Read more about Messenger UI App project"><i class='bx bx-right-arrow-alt'></i></a>
             </div>
         </div>
+
 
         <!-- Grocery Store Card -->
         <div class="cards">
@@ -388,6 +488,7 @@
     </div>
 </div>
 
+
 <div id="messengerModal" class="modal">
     <div class="modal-content">
         <span class="close" onclick="closeModal('messengerModal')">&times;</span>
@@ -400,8 +501,38 @@
            <p><span>Technology used : </span>Figma: For wireframing, prototyping, and creating interactive design components.</p>
        </div>
        <a href="https://www.figma.com/design/pUMj3dz3mjJiHT3mXa4MCw/Roshan-Practice-set?node-id=473-476&t=KGCdK2ojEQUuYaZo-1" target="_blank"> <button class="buton">view code </button><i class='bx bxl-github'></i></a>
+
+<div id="linuxMonitorModal" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('linuxMonitorModal')">&times;</span>
+    <div class="project-img">
+      <img src="./images/linux.jpg" alt="Linux Log Monitor Screenshot" height="320px">
+
     </div>
+    <div>
+      <h1>Linux Log Monitor with Email Alerts</h1>
+      <p>
+        A lightweight Python-based log monitoring tool for Linux systems that detects and alerts you about suspicious activity in real-time. It helps track system misuse and alerts you proactively.
+      </p><br>
+      <p>
+        <span>Key Features:</span>
+      </p>
+      <p>
+        • Detect failed login attempts from <code>/var/log/auth.log</code><br>
+        • Monitor usage of <code>sudo</code> commands<br>
+        • Track the creation of new user accounts<br>
+        • Instantly send email alerts to your configured address<br>
+        • Log all alerts to a file: <code>logs/suspicious_activity.log</code><br>
+        • Fully automatable using <code>cron</code> (every 15 minutes)
+      </p><br>
+      <p><span>Technology used:</span> Python, Linux, Cron, SMTP</p>
+    </div>
+     <a href="https://github.com/RoshanDandge25/linux-log-monitor" target="_blank"> <button class="buton">view files </button><i class='bx bxl-github'></i></a>
+   
+  </div>
 </div>
+
+
 
 <div id="groceryModal" class="modal">
     <div class="modal-content">
@@ -487,6 +618,42 @@
         </div>
     </footer>
 <!-- footor end -->
+
+
+<!-- footor start -->
+
+    <footer class="footer">
+        <div class="footer-container">
+            <h2>Roshan Dandge</h2>
+            <!-- <p>Crafting digital experiences with passion and precision.</p> -->
+
+            <ul class="footer-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <div class="social-icons">
+                <a href="https://github.com/RoshanDandge25" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                    <i class="bx bxl-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/roshan-dandge-292805215" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                    <i class="bx bxl-linkedin"></i>
+                </a>
+                <a href="mailto:roshandandge25@gmail.com" aria-label="Email">
+                    <i class="bx bxl-gmail"></i>
+                </a>
+                <a href="https://t.me/Roshan_Dandge" target="_blank" rel="noopener noreferrer" aria-label="Telegram">
+                    <i class="bx bxl-telegram"></i>
+                </a>
+            </div>
+
+            <p class="copyright">© <span id="2024"></span> Roshan Dandge. All Rights Reserved.</p>
+        </div>
+    </footer>
+<!-- footor end -->
+
 
 
 <script src="script.js"></script>

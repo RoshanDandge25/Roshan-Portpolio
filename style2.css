@@ -306,6 +306,7 @@ section.active{
     }
 }
 
+
 /* About Section */
 .section_title {
     text-align: center;
@@ -398,293 +399,206 @@ section.active{
     /* -------------------about section end ------------- */
 
     /* ---------------Qualification start----------- */
-
-
-    /* ---------------qualification---------- */
-
+/* --------------- Qualification Section --------------- *//* --------------- Qualification Section (Modified as per your requirement) --------------- */
+  
 /* Qualification Section */
 .qualification-section {
-    /* padding: 2rem 0; */
-    padding: 6rem 9%;
+  padding: 6rem 9%;
 }
 
 .quali-title {
-    text-align: center;
-    font-size:3rem;
-    color:#4caf50;
-    margin-bottom: 1rem;
-}
-.qualification-container .qualification-box:hover h3 {
-    color: var(--main-color);
+  text-align: center;
+  font-size: 3rem;
+  color: var(--main-color);
 }
 
-
-.quali-title span{
-    color: var(--white-color);
-}
 .subtitlequali {
-    text-align: center;
-    font-size:2rem;
-    color: var(--gray-color);
-    margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2rem;
+  color: var(--gray-color);
+  margin-bottom: 2rem;
 }
 
-.qualification-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2rem;
-}
-
+/* Tabs */
 .qualification-tabs {
-    display: flex;
-    gap:5rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
 }
 
 .qualification-button {
-    padding: 0.5rem 1rem;
-    border: 2px solid var(--main-color);
-    border-radius: 5px;
-    background-color: transparent;
-    color: var(--main-color);
-    cursor: pointer;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
+  padding: 0.7rem 2rem;
+  border: 2px solid var(--main-color);
+  border-radius: 5px;
+  background-color: transparent;
+  color: var(--main-color);
+  font-size: 1.6rem;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 
+.qualification-button:hover,
 .qualification__active {
-    background-color: var(--main-color);
-    color: var(--white-color);
+  background-color: var(--main-color);
+  color: var(--white-color);
 }
 
-.qualification-sections {
-    width: 100%;
-    max-width: 800px;
-}
-
-.qualification-data {
-    margin-bottom: 1.5rem;
-    display: flex;
-    gap: 1rem;
-}
-
-.qualification-title {
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: var(--white-color);
-}
-
-.qualification-subtitle {
-    font-size: 1rem;
-    color: var(--gray-color);
-}
-
-.qualification-calendar {
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    color: var(--main-color);
-    font-size: 0.9rem;
-}
-.qualification-button {
-    padding: 0.5rem 1rem;
-    border: 2px solid var(--main-color);
-    border-radius: 5px;
-    background-color: transparent;
-    color: var(--main-color);
-    cursor: pointer;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    transition: background-color 0.3s, color 0.3s;
-}
-
-.qualification__active {
-    background-color: var(--main-color);
-    color: var(--white-color);
-}
-
-
-.qualification-container .qualification-box:hover::after h3{
-    color: var(--main-color);
-}
-
-
-/* Qualification Section - Box Styling */
+/* Box Grid */
 .qualification-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    text-align: center;
-    /* padding: 2rem 5rem; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  text-align: center;
 }
 
 .qualification-box {
-    background: var(--second-bg-color);
-    border: 0.2rem solid var(--second-bg-color);
-    border-radius: 1rem;
-    padding: 2rem;
-    transition: 0.3s ease-in-out;
-    text-align: center;
+  background: var(--second-bg-color);
+  border: 0.2rem solid var(--second-bg-color);
+  border-radius: 1rem;
+  padding: 2rem;
+  transition: 0.3s;
 }
 
 .qualification-box:hover {
-    border-color: var(--main-color);
-    transform: scale(1.02);
+  border-color: var(--main-color);
+  transform: scale(1.02);
 }
 
-
-
 .qualification-title {
-    font-size: 2rem;
-    color: var(--white-color);
-    margin-bottom: 0.5rem;
+  font-size: 2rem;
+  color: var(--white-color);
+  margin-bottom: 0.5rem;
 }
 
 .qualification-subtitle {
-    font-size: 1.5rem;
-    color: var(--white-color);
-    margin-bottom: 1rem;
+  font-size: 1.5rem;
+  color: var(--white-color);
+  margin-bottom: 1rem;
 }
 
 .qualification-calendar {
-    font-size: 1.3rem;
-    color: var(--main-color);
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
+  font-size: 1.3rem;
+  color: var(--main-color);
 }
 
-/* Buttons for Tabs */
-.qualification-tabs {
-    display: flex;
-    justify-content: center;
-    gap: 2rem;
-    margin-bottom: 2rem;
+/* Icons */
+.qualification-box i {
+  font-size: 3rem;
+  color: var(--gray-color);
 }
 
-.qualification-button {
-    padding: 0.7rem 2rem;
-    border: 2px solid var(--main-color);
-    border-radius: 5px;
-    background-color: transparent;
-    color: var(--main-color);
-    font-size: 1.6rem;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
+.qualification-box:hover i {
+  color: var(--main-color);
 }
 
-.qualification-button:hover {
-    background-color: var(--main-color);
-    color: var(--white-color);
+/* Services Section */
+.services {
+  text-align: center;
 }
 
-.qualification__active {
-    background-color: var(--main-color);
-    color: var(--white-color);
-}
-.qualification-box .qualification-title h3:hover{
-    background-color: var(--main-color);
-
+.service-box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
 }
 
-.qualification-container .qualification-box:hover h3
-{
-    color: var(--white-color);
+.service-item {
+  background: var(--second-bg-color);
+  border-radius: 1rem;
+  padding: 2rem;
+  transition: 0.3s;
 }
 
-.qualification-box i{
-
-    font-size: 4rem;
-  
-}
-.qualification-box:hover i{
-    color:var(--main-color);
-}
-.buton{
-    margin-top: 15px;
-    display: inline-block;
-    padding: 1rem 2rem;
-    background-color: var(--main-color);
-    border:.2rem solid #7cf03d;
-    border-radius:4rem ;
-    /* box-shadow: 0 01rem var(--main-color); */
-    font-size: 1.6rem;
-    color: var(--bg-color);
-    font-weight: 500;
-    transition: .5s;
-    
+.service-item:hover {
+  border: 2px solid var(--main-color);
+  transform: scale(1.02);
 }
 
+.service-item i {
+  font-size: 3rem;
+  color: var(--main-color);
+}
 
-/* --------------------qualification end ------------------ */
+.tech-icons i {
+  font-size: 2rem;
+  margin: 0.5rem;
+  color: var(--white-color);
+}
+
+.head {
+  font-size: 1.5rem;
+  color: var(--white-color);
+  margin-top: 1rem;
+}
+
+.paragraph {
+  color: var(--gray-color);
+  margin: 0.5rem 0 1rem;
+}
+
 
 
 /* ------------------------services  start-------------------*/
 .services {
-    background: var(--bg-color);
-
-    
-    color: var(--white-color);
-    text-align: center;
+  background: var(--bg-color);
+  color: var(--white-color);
+  text-align: center;
+  padding: 4rem 2rem;
 }
+
 .services .heading {
-    font-size: 3rem;
-    margin-bottom: 3rem;
-    color: var(--white-color);
-}.services .heading span {
-    color: var(--main-color);
-}
-.services .service-box {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-    justify-content: center;
-  
-
+  font-size: 3rem;
+  margin-bottom: 3rem;
+  color: var(--white-color);
 }
 
+.services .heading span {
+  color: var(--main-color);
+}
+
+/* Fixed the class here */
+.services .service-box-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
 
 .services .service-item {
-    background:var(--second-bg-color);
-    padding: 2rem;
-    border-radius: 1rem;
-    transition: 0.3s ease-in-out;
-    /* text-align: center; */
-    border: 0.2rem solid var(--second-bg-color);
-    transition: .5s;
-   
-
+  background: var(--second-bg-color);
+  padding: 2rem;
+  border-radius: 1rem;
+  transition: 0.3s ease-in-out;
+  border: 0.2rem solid var(--second-bg-color);
+  transition: 0.5s;
 }
+
 .services .service-item:hover {
-    border-color: var(--main-color);
-    /* transform: scale(1.02); */
-    /* color: var(--bg-color); */
-    /* transform: translateY(-10px); */
-}
-.service-item h3{
-
-    font-size: 1.5rem;
-    transition: .5s;
-}
-.services .service-item:hover h3{
-    color: var(--main-color);
+  border-color: var(--main-color);
 }
 
-.service-item i{
-    font-size: 5rem;
-    transition: .5s;
+.service-item h3 {
+  font-size: 1.5rem;
+  transition: 0.5s;
 }
-.service-item:hover i{
-    color:var(--main-color);
+
+.services .service-item:hover h3 {
+  color: var(--main-color);
 }
-.service-item .paragraph{
-    font-size: 1.5rem;
-    padding: 15px;
-    
+
+.service-item i {
+  font-size: 5rem;
+  transition: 0.5s;
+}
+
+.service-item:hover i {
+  color: var(--main-color);
+}
+
+.service-item .paragraph {
+  font-size: 1.5rem;
+  padding: 15px;
 }
 
 
@@ -849,6 +763,21 @@ section.active{
 
 
 }
+.buton{
+    margin-top: 15px;
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--main-color);
+    border:.2rem solid #7cf03d;
+    border-radius:4rem ;
+    /* box-shadow: 0 01rem var(--main-color); */
+    font-size: 1.6rem;
+    color: var(--bg-color);
+    font-weight: 500;
+    transition: .5s;
+    
+}
+
 
 
 /* Media Queries for Mobile Responsiveness */
@@ -996,8 +925,6 @@ form #buton:hover {
 }
 
 /* ----------contact us----end------- */
-
-
 /* --footor start---- */
 .footer {
     background: #111;
@@ -1063,4 +990,3 @@ form #buton:hover {
     color: #888;
     margin-top: 10px;
   }
-  /*---footor end---------  */
