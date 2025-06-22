@@ -541,64 +541,66 @@ section.active{
 
 /* ------------------------services  start-------------------*/
 .services {
-  background: var(--bg-color);
-  color: var(--white-color);
-  text-align: center;
-  padding: 4rem 2rem;
-}
+    background: var(--bg-color);
 
+    
+    color: var(--white-color);
+    text-align: center;
+}
 .services .heading {
-  font-size: 3rem;
-  margin-bottom: 3rem;
-  color: var(--white-color);
+    font-size: 3rem;
+    margin-bottom: 3rem;
+    color: var(--white-color);
+}.services .heading span {
+    color: var(--main-color);
+}
+.services .service-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    justify-content: center;
+  
+
 }
 
-.services .heading span {
-  color: var(--main-color);
-}
-
-/* Fixed the class here */
-.services .service-box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 2rem;
-  justify-content: center;
-}
 
 .services .service-item {
-  background: var(--second-bg-color);
-  padding: 2rem;
-  border-radius: 1rem;
-  transition: 0.3s ease-in-out;
-  border: 0.2rem solid var(--second-bg-color);
-  transition: 0.5s;
-}
+    background:var(--second-bg-color);
+    padding: 2rem;
+    border-radius: 1rem;
+    transition: 0.3s ease-in-out;
+    /* text-align: center; */
+    border: 0.2rem solid var(--second-bg-color);
+    transition: .5s;
+   
 
+}
 .services .service-item:hover {
-  border-color: var(--main-color);
+    border-color: var(--main-color);
+    /* transform: scale(1.02); */
+    /* color: var(--bg-color); */
+    /* transform: translateY(-10px); */
+}
+.service-item h3{
+
+    font-size: 1.5rem;
+    transition: .5s;
+}
+.services .service-item:hover h3{
+    color: var(--main-color);
 }
 
-.service-item h3 {
-  font-size: 1.5rem;
-  transition: 0.5s;
+.service-item i{
+    font-size: 5rem;
+    transition: .5s;
 }
-
-.services .service-item:hover h3 {
-  color: var(--main-color);
+.service-item:hover i{
+    color:var(--main-color);
 }
-
-.service-item i {
-  font-size: 5rem;
-  transition: 0.5s;
-}
-
-.service-item:hover i {
-  color: var(--main-color);
-}
-
-.service-item .paragraph {
-  font-size: 1.5rem;
-  padding: 15px;
+.service-item .paragraph{
+    font-size: 1.5rem;
+    padding: 15px;
+    
 }
 
 
